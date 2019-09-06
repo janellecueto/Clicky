@@ -1,5 +1,6 @@
 import React from "react"
 import NavBar from "./NavBar"
+import Jumbo from "./Jumbo"
 
 class Main extends React.Component{
     state = {
@@ -14,8 +15,11 @@ class Main extends React.Component{
                     currentScore={this.state.current}
                     topScore={this.state.top}
                 />
+                <Jumbo/>
             </div>
         );
 
     }
 }
+
+export default Main;
