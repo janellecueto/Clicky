@@ -1,0 +1,6 @@
+.game-piece{
+    object-fit: cover;
+    width: 20vw;
+    height: 20vw;
+    padding: 10px;
+}
