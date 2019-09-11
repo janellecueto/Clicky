@@ -10,6 +10,7 @@ When the game loads, the player is presented with 12 lovely pictures of ducks. C
 - The player must click on each duck only once in order to win
 - If the player clicks on a duck they have previously clicked on, the game restarts
 
+![screenshot](images/screenshot01.png)
 
 ## Technologies & Concepts 
 - React | Components, basic React state, JSX
