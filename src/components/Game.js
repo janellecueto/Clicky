@@ -11,7 +11,7 @@ export function GamePiece(props){
             <img className="game-piece" 
                 alt="game piece"
                 src={props.imgSrc}
-                data-clicked={props.count}
+                data-count={props.count}
                 onClick={props.onClick}
             />
     )
